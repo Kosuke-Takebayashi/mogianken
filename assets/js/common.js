@@ -1,3 +1,6 @@
+/**
+ * ハンバーガーボタンを開閉します
+ */
 window.addEventListener("load", function () {
     const hamburger_button = document.querySelector(".hamburger-button");
     const hamburger_menu = document.querySelector(".hamburger-menu-wrapper");

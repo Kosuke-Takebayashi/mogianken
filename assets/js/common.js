@@ -1,5 +1,5 @@
 /**
- * ハンバーガーボタンを開閉します
+ * ハンバーガーメニューを開閉します
  */
 window.addEventListener("load", function () {
     const hamburger_button = document.querySelector(".hamburger-button");

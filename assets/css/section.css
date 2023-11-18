@@ -1,7 +1,8 @@
 .main-content-inner {
     max-width: 1100px;
     margin: auto;
-    padding: 0 0 96px;
+    padding: 0 5% 96px;
+    box-sizing: content-box;
 }
 
 .section {
@@ -10,7 +11,7 @@
 
 .section-title {
     margin-bottom: 64px;
-    
+
 }
 
 .section-title__text {
@@ -91,21 +92,30 @@
     .main-content-inner {
         max-width: 900px;
     }
+
     .section {
         padding-top: 10.5%;
     }
+
     .section-content-inner {
         gap: 8.7%;
     }
+
     .section-content-description__title {
         font-size: 35px;
     }
+
     .section-content-description__text {
         font-size: 15px;
     }
 }
 
 @media screen and (max-width: 767px) {
+
+    .main-content-inner {
+        padding-left: 0;
+        padding-right: 0;
+    }
 
     /* セクション */
     .section {

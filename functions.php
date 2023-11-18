@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 // テーマのセットアップ
 function my_theme_set_up()
@@ -17,22 +17,22 @@ function my_add_files()
 	-----------------------------------------------------------------*/
 	wp_enqueue_style('reset-style', get_template_directory_uri() . '/assets/css/reset.css');
 
-    // セクション共通
+	// セクション共通
 	wp_enqueue_style('section-style', get_template_directory_uri() . '/assets/css/section.css', 'reset-style');
 
-    // header
-    wp_enqueue_style('header-style', get_template_directory_uri(). '/assets/css/header.css');
+	// header
+	wp_enqueue_style('header-style', get_template_directory_uri() . '/assets/css/header.css');
 
-    // footer
-    wp_enqueue_style('footer-style', get_template_directory_uri(). '/assets/css/footer.css');
+	// footer
+	wp_enqueue_style('footer-style', get_template_directory_uri() . '/assets/css/footer.css');
 
 	// トップ
 	if (is_home() || is_front_page()) {
 		wp_enqueue_style('top-style', get_template_directory_uri() . '/assets/css/top.css', 'common-style');
 	};
 
-    // 下層ページ共通
-    if (!is_home() && !is_front_page()) {
+	// 下層ページ共通
+	if (!is_home() && !is_front_page()) {
 		wp_enqueue_style('sub-main-visual-style', get_template_directory_uri() . '/assets/css/sub-main-visual.css', 'common-style');
 	};
 
@@ -41,36 +41,36 @@ function my_add_files()
 		wp_enqueue_style('company-style', get_template_directory_uri() . "/assets/css/company.css", 'common-style');
 	}
 
-    // About us
-    if (is_page("about")) {
-        wp_enqueue_style('about-us-style', get_template_directory_uri(). "/assets/css/about.css", 'common-style');
-    }
+	// About us
+	if (is_page("about")) {
+		wp_enqueue_style('about-us-style', get_template_directory_uri() . "/assets/css/about.css", 'common-style');
+	}
 
-    // Contact 
-    if (is_page("contact")) {
-        wp_enqueue_style('contact-style', get_template_directory_uri(). "/assets/css/contact.css", 'common-style');
-    }
+	// Contact 
+	if (is_page("contact")) {
+		wp_enqueue_style('contact-style', get_template_directory_uri() . "/assets/css/contact.css", 'common-style');
+	}
 
 	// News一覧
 	if (is_page("news") || is_home() || is_front_page() || is_archive()) {
-        wp_enqueue_style('news-style', get_template_directory_uri(). "/assets/css/news.css", 'common-style');
-    }
+		wp_enqueue_style('news-style', get_template_directory_uri() . "/assets/css/news.css", 'common-style');
+	}
 
 	// News詳細
 	if (is_single()) {
-        wp_enqueue_style('news-detail-style', get_template_directory_uri(). "/assets/css/news-detail.css", 'common-style');
-    }
+		wp_enqueue_style('news-detail-style', get_template_directory_uri() . "/assets/css/news-detail.css", 'common-style');
+	}
 
 
-    /*----------------------------------------------------------------
+	/*----------------------------------------------------------------
      * JavaScript
     -----------------------------------------------------------------*/
-    wp_enqueue_script('jquery', get_template_directory_uri(). '/assets/js/jquery.min.js');
-    wp_enqueue_script('jquery-migrate', get_template_directory_uri(). '/assets/js/jquery-migrate.min.js');
-    wp_enqueue_script('common-script', get_template_directory_uri(). '/assets/js/common.js');
-    wp_enqueue_script('header-script', get_template_directory_uri(). '/assets/js/header.js');
+	wp_enqueue_script('jquery', get_template_directory_uri() . '/assets/js/jquery.min.js');
+	wp_enqueue_script('jquery-migrate', get_template_directory_uri() . '/assets/js/jquery-migrate.min.js');
+	wp_enqueue_script('common-script', get_template_directory_uri() . '/assets/js/common.js');
+	wp_enqueue_script('header-script', get_template_directory_uri() . '/assets/js/header.js');
 
-    /*----------------------------------------------------------------
+	/*----------------------------------------------------------------
 
 	/*----------------------------------------------------------------
 	 * JavaScript
@@ -82,8 +82,5 @@ function my_add_files()
 	if (is_home() || is_front_page()) {
 		wp_enqueue_script('main-js', get_template_directory_uri() . "/assets/js/main.js", "", true);
 	};
-
 }
 add_action('wp_enqueue_scripts', 'my_add_files');
-
-

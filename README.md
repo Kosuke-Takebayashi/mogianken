@@ -10,5 +10,5 @@
 | News一覧 | page-news.php |
 | Newsカテゴリ一覧 | category.php |
 | News詳細 | single.php |
-| Contact | contact.php |
+| Contact | page-contact.php |
 | 404 | 404.php |

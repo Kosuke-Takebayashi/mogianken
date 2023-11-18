@@ -8,7 +8,7 @@
 .sub-mv-text {
     color: #003C8A;
     padding-left: 10%;
-    font-size: 100px;
+    font-size: clamp(4.375rem, 2.232rem + 3.35vw, 6.25rem);
     margin-bottom: 0.81em;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .sub-mv-sub-text {
-    font-size: 24px;
+    font-size: clamp(1.05rem, 0.536rem + 0.8vw, 1.5rem);
     line-height: 2.04;
 }
 

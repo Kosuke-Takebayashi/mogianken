@@ -14,12 +14,12 @@
 }
 
 .section-title__text {
-    font-size: 80px;
+    font-size: clamp(3.5rem, 1.786rem + 2.68vw, 5rem);
     font-weight: 500;
 }
 
 .section-title__sub-text {
-    font-size: 16px;
+    font-size: clamp(0.7rem, 0.357rem + 0.54vw, 1rem);
     font-weight: 500;
 }
 
@@ -85,6 +85,24 @@
 
 .service__section-content {
     margin-bottom: 96px;
+}
+
+@media screen and (max-width: 1440px) {
+    .main-content-inner {
+        max-width: 900px;
+    }
+    .section {
+        padding-top: 10.5%;
+    }
+    .section-content-inner {
+        gap: 8.7%;
+    }
+    .section-content-description__title {
+        font-size: 35px;
+    }
+    .section-content-description__text {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 767px) {

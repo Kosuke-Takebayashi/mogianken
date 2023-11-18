@@ -2,8 +2,8 @@
  * ハンバーガーメニューを開閉します
  */
 window.addEventListener("load", function () {
-    const hamburger_button = document.querySelector(".hamburger-button");
-    const hamburger_menu = document.querySelector(".hamburger-menu-wrapper");
+    const hamburger_button = document.getElementById('hamburger-button');
+    const hamburger_menu = document.getElementById('hamburger-menu-wrapper');
 
     hamburger_button.addEventListener("click", function () {
         this.classList.toggle("is-active");

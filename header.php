@@ -67,14 +67,14 @@
             </nav>
 
             <!-- ハンバーガーボタン -->
-            <button class="hamburger-button">
+            <button class="hamburger-button" id="hamburger-button">
                 <span class="hamburger-bar hamburger-bar-1"></span>
                 <span class="hamburger-bar hamburger-bar-2"></span>
                 <span class="hamburger-bar hamburger-bar-3"></span>
             </button>
 
             <!-- グローバルナビゲーション - SP -->
-            <div class="hamburger-menu-wrapper">
+            <div class="hamburger-menu-wrapper" id="hamburger-menu-wrapper">
                 <div class="header-inner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-header-hamburger.svg" alt="" class="humburger-menu-logo" width="117" height="40"></div>
                 <nav class="header-nav--sp hamburger-menu">
                     <ul class='header-nav__list--sp'>

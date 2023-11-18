@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.mission__section-content,
+.vision__section-content {
+    margin-bottom: 96px;
+}
+
+.section-content-figure--reverse {
+    order: 0;
+}
+
+@media screen and (max-width: 767px) {
+
+    .mission__section-content,
+    .vision__section-content {
+        margin-bottom: 31px;
+    }
+
+    .section-content-figure--reverse {
+        order: -1;
+    }
+}

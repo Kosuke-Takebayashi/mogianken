@@ -7,7 +7,7 @@
         <div class="mv-inner">
             <picture>
                 <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-main-visual-sp.jpg">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-main-visual.jpg" alt="地上から青い空をバックに高層ビルを見上げています" class="mv__img">
+                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-main-visual.jpg" alt="地上から青い空をバックに高層ビルを見上げています" class="mv__img" width="1920" height="1080">
             </picture>
 
             <div class="mv-text">

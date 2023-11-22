@@ -90,7 +90,7 @@ video {
 
 body {
     line-height: 1.5;
-    font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", sans-serif;
+    font-family: 'ヒラギノ角ゴシック', 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', 'メイリオ', Meiryo, sans-serif;
 }
 
 article,

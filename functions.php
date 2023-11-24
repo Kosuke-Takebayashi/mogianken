@@ -61,6 +61,11 @@ function my_add_files()
 		wp_enqueue_style('news-detail-style', get_template_directory_uri() . "/assets/css/news-detail.css", 'common-style');
 	}
 
+	// 404
+	if (is_404()) {
+		wp_enqueue_style('not-found-style', get_template_directory_uri() . "/assets/css/404.css", 'common-style');
+	}
+
 	/*----------------------------------------------------------------
      * JavaScript
     -----------------------------------------------------------------*/

@@ -32,6 +32,12 @@
     margin-bottom: 80px;
 }
 
+@media screen and (max-width: 1180px) {
+    .sub-mv-text {
+        padding-left: 5%;
+    }
+}
+
 @media screen and (max-width: 767px) {
     .sub-mv-inner {
         padding-top: 24.8%;

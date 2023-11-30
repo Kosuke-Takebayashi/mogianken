@@ -20,7 +20,6 @@
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-company-mv-sp.jpg">
                     <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-company-mv.jpg" alt="青い空をバックにした高層ビル" width="1920" height="640">
                 </picture>
-
             </div>
         </div>
     </div>
@@ -43,7 +42,7 @@
                 <span class="section-title__sub-text">社長挨拶</span>
             </div>
 
-            <div class="section-content message__section-content">
+            <div class="section-content">
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
@@ -60,13 +59,13 @@
 
                     </div>
 
-                    <figure class="section-content-figure">
+                    <figure class="section-content-figure section-content-figure--reverse">
                         <picture class="section-content-figure__img">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-message-sp.jpg">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-message.jpg" alt="" width="444" height="444">
                         </picture>
-
                     </figure>
+
                 </div>
             </div>
 

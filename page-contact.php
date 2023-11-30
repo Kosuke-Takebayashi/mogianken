@@ -1,4 +1,5 @@
 <?php
+
 /**
  * お問い合わせページ
  */
@@ -6,7 +7,7 @@
 
 <?php get_header(); ?>
 
-<main class="main">
+<main class="main contact-main">
 
     <div class="sub-mv">
         <div class="sub-mv-inner">
@@ -25,7 +26,7 @@
     </div>
 
     <div class="contact">
-        <div class="main-content-inner main-content-inner--contact-page">
+        <div class="main-content-inner contact-main__main-content-inner">
 
             <p class="contact__lead">株式会社テックコーポレートに関するお問い合わせ、ご不明な点やご相談がございましたら、<br>
                 下記フォームからお気軽にお問い合わせください。</p>

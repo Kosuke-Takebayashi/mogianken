@@ -1,3 +1,9 @@
+<?php
+/**
+ * About usページ
+ */
+?>
+
 <?php get_header(); ?>
 
 <main class="main">
@@ -9,9 +15,9 @@
                 <p class="sub-mv-sub-text">私たちについて</p>
             </div>
             <div class="sub-mv-content">
-                <picture>
+                <picture class="sub-mv__img">
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-aboutus-mv-sp.jpg">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-aboutus-mv.jpg" alt="握手をしている男性2人の手" class="sub-mv__img" width="1920" height="640">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-aboutus-mv.jpg" alt="握手をしている男性2人の手" width="1920" height="640">
                 </picture>
             </div>
         </div>

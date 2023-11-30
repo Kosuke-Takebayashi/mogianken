@@ -1,3 +1,9 @@
+<?php 
+/**
+ * 404ページ
+ */
+?>
+
 <?php get_header(); ?>
 
 <main class="main not-found">

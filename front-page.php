@@ -1,3 +1,9 @@
+<?php 
+/**
+ * トップページ
+ */
+?>
+
 <?php get_header(); ?>
 
 <main class="main">

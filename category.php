@@ -1,3 +1,9 @@
+<?php
+/**
+ * カテゴリー別の記事一覧ページ
+ */
+?>
+
 <?php get_header(); ?>
 
 <main class="main">
@@ -9,7 +15,10 @@
                 <p class="sub-mv-sub-text">お知らせ</p>
             </div>
             <div class="sub-mv-content">
-                <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-news.jpg" alt="ガラス張りの高層ビルが青い空を反射して映しています" class="sub-mv__img" width="1920" height="640">
+                <picture class="sub-mv__img">
+                    <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-news-mv-sp.jpg">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-news.jpg" alt="ガラス張りの高層ビルが青い空を反射して映しています" width="1920" height="640">
+                </picture>
             </div>
         </div>
     </div>

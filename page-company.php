@@ -1,3 +1,9 @@
+<?php
+/**
+ * Companyページ
+ */
+?>
+
 <?php get_header(); ?>
 
 <!-- メインビジュアル -->
@@ -10,9 +16,9 @@
                 <p class="sub-mv-sub-text">会社概要</p>
             </div>
             <div class="sub-mv-content">
-                <picture>
+                <picture class="sub-mv__img">
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-company-mv-sp.jpg">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-company-mv.jpg" alt="青い空をバックにした高層ビル" class="sub-mv__img" width="1920" height="640">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-company-mv.jpg" alt="青い空をバックにした高層ビル" width="1920" height="640">
                 </picture>
 
             </div>

@@ -1,3 +1,9 @@
+<?php
+/**
+ * お問い合わせページ
+ */
+?>
+
 <?php get_header(); ?>
 
 <main class="main">
@@ -9,9 +15,9 @@
                 <p class="sub-mv-sub-text">お問い合わせ</p>
             </div>
             <div class="sub-mv-content">
-                <picture>
+                <picture class="sub-mv__img">
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-contact-mv-sp.jpg">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-contact.jpg" alt="高層ビルへつながる階段をサラリーマンが上っています" class="sub-mv__img" width="1920" height="640">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-contact.jpg" alt="高層ビルへつながる階段をサラリーマンが上っています" width="1920" height="640">
                 </picture>
 
             </div>

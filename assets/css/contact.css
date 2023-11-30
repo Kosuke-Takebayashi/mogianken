@@ -1,176 +1,156 @@
-
 .contact {
-    font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
+
 .main-content-inner--contact-page {
-    max-width: 800px;
-    padding-top: 92px;
-    padding-bottom: 73px;
+  max-width: 800px;
+  padding-top: 92px;
+  padding-bottom: 73px;
 }
 
 .contact__lead {
-    margin-bottom: 55px;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1.33;
-    font-size: 18px;
+  margin-bottom: 55px;
+  text-align: center;
+  font-weight: bold;
+  line-height: 1.33;
+  font-size: 18px;
 }
 
-/**
-  * フォーム部分
-  **/
-  .form__unit {
-    padding: 0;
-    border: none;
-    margin-bottom: 20px;
-  }
-  .required {
-    color: #FF0000;
-    padding-left: 0.1em
-  }
-  .form__unit--textarea {
-    align-items: flex-start;
-    margin-bottom: 64px;
-  }
-  .label {
-    display: inline-block;
-    font-size: 16px;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-  }
-  .form__label {
-    margin-bottom: 0.2em;
-  }
-  .form__textfield {
-    padding: 0.5em;
-  }
-  .form__textarea {
-    line-height: 1.45;
-    height: 10.15em;
-    padding: 0.5em;
+/* フォーム */
+.form__unit {
+  padding: 0;
+  border: none;
+  margin-bottom: 20px;
+}
 
-  }
-  select {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-  }
-    input[type="text"],
-    input[type="tel"],
-    input[type="email"] {
-      min-height: 38px;
-    }
-  input[type="text"], input[type="tel"], input[type="email"],
-  textarea, button {
-    box-sizing: border-box;
-    display: block;
-    width: 100%;
-    appearance: none;
-    border: 1px solid #111111;
-  }
-  textarea {
-    height: 7em;
-  }
-  input[type="select"] {
-    width: 100%;
-  }
-  input[type="textarea"] {
-    height: 7em;
-  }
-  input[type="email"] {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-  }
-  input[type="tel"] {
-    box-sizing: border-box;
-    display: inline-block;
-    width: 100%;
-  }
-  .must {
-    display: inline-block;
-    color: #ffffff;
-    background-color: #ff5252;
-    padding: 3px 5px;
-    margin-left: 10px;
-  }
-  /**
-  * 確認ボタン
-  **/
-  .contact__button-wrapper {
-    text-align: center;
-  }
-  .contact__button {
-    font-size: 18px;
+.required {
+  color: #FF0000;
+  padding-left: 0.1em
+}
+
+.form__unit--textarea {
+  align-items: flex-start;
+  margin-bottom: 64px;
+}
+
+.label {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.form__label {
+  margin-bottom: 0.2em;
+}
+
+.form__textfield {
+  padding: 0.5em;
+}
+
+.form__textarea {
+  line-height: 1.45;
+  height: 10.15em;
+  padding: 0.5em;
+
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"] {
+  min-height: 38px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea,
+button {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  appearance: none;
+  border: 1px solid #111111;
+}
+
+textarea {
+  height: 7em;
+}
+
+input[type="textarea"] {
+  height: 7em;
+}
+
+input[type="email"] {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}
+
+input[type="tel"] {
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100%;
+}
+
+/* 送信ボタン */
+.contact__button-wrapper {
+  text-align: center;
+}
+
+.contact__button {
+  font-size: 18px;
+}
+
+::placeholder {
+  color: #E0E0E0;
+  font-weight: bold;
+}
+
+.wpcf7-list-item-label {
+  display: inline-block;
+  font-size: 33px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .main-content-inner--contact-page {
+    padding: 9.3% 6.4% 14%;
   }
 
-  ::placeholder {
-    color: #E0E0E0;
-    font-weight: bold;
-  }
-
-  /**
-  * チェックボックス 
-  **/
-  .agree {
-    text-align: center;
-  }
-  .form__agree {
-    width: calc((1014 / 1375) * 100%);
-    margin: 0 auto 29px;
+  .contact__lead {
+    font-size: 14px;
     text-align: left;
-  }
-  .agree__annotation {
-    display: block;
-    font-size: 29px;
-    line-height: 1.24;
     margin-bottom: 25px;
   }
-  .wpcf7-list-item-label {
-    display: inline-block;
-    font-size: 33px;
-    font-weight: bold;
-    vertical-align: middle;
-    margin-left: 18px;
-  }
-  input[type="checkbox"] {
-    scale: 3;
+
+  .contact__lead br {
+    display: none;
   }
 
-  @media screen and (max-width: 767px) {
-    .main-content-inner--contact-page {
-      padding: 9.3% 6.4% 14%;
-    }
-    .contact__lead{
-      font-size: 14px;
-      text-align: left;
-      margin-bottom: 25px;
-    }
-
-    .contact__lead br {
-      display: none;
-    }
-
-    .label, .required {
-      font-size: 14px;
-      font-weight: 400;
-    }
-
-    .form__textfield {
-      font-size: 16px;
-    }
-
-    .form__unit--textarea {
-      margin-bottom: 50px;
-    }
-
-    .form__textarea {
-      min-height: 220px;
-    }
-
-    .contact__button {
-      font-size: 16px;
-      padding: 0.71em 1.33em;
-    }
-
+  .label,
+  .required {
+    font-size: 14px;
+    font-weight: 400;
   }
+
+  .form__textfield {
+    font-size: 16px;
+  }
+
+  .form__unit--textarea {
+    margin-bottom: 50px;
+  }
+
+  .form__textarea {
+    min-height: 220px;
+  }
+
+  .contact__button {
+    font-size: 16px;
+    padding: 0.71em 1.33em;
+  }
+
+}

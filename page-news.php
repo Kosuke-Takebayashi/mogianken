@@ -1,6 +1,12 @@
+<?php
+/**
+ * Newsページ
+ */
+?>
+
 <?php get_header(); ?>
 
-<main class="main">
+<main class="main news-main">
 
     <div class="sub-mv">
         <div class="sub-mv-inner">
@@ -9,15 +15,15 @@
                 <p class="sub-mv-sub-text">お知らせ</p>
             </div>
             <div class="sub-mv-content">
-                <picture>
+                <picture class="sub-mv__img">
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-news-mv-sp.jpg">
-                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-news.jpg" alt="ガラス張りの高層ビルが青い空を反射して映しています" class="sub-mv__img" width="1920" height="640">
+                    <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-news.jpg" alt="ガラス張りの高層ビルが青い空を反射して映しています" width="1920" height="640">
                 </picture>
             </div>
         </div>
     </div>
 
-    <div class="main-content-inner main-content-inner--news-page">
+    <div class="main-content-inner news-article-wrapper news-main__news-article-wrapper">
 
         <?php
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

@@ -1,3 +1,9 @@
+<?php 
+/**
+ * 記事詳細ページ
+ */
+?>
+
 <?php get_header(); ?>
 
 <main class="main news-detail">

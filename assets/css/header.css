@@ -5,7 +5,6 @@
     top: 0;
     left: 0;
     right: 0;
-    /* background-color: #111; */
     z-index: 100;
 }
 
@@ -88,37 +87,33 @@ button {
     height: 50px;
     background-color: #fff;
     border: none;
+    z-index: 9999;
 }
 
 .hamburger-bar {
-    position: relative;
     display: inline-block;
     width: 25px;
     border: 1px solid #003C8A;
 }
 
-.hamburger-bar-1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(calc(-50% - 8px));
-    z-index: 90;
-}
-
-.hamburger-bar-2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 90;
-}
-
+.hamburger-bar-1,
+.hamburger-bar-2,
 .hamburger-bar-3 {
     position: absolute;
     top: 50%;
     left: 50%;
+}
+
+.hamburger-bar-1 {
+    transform: translateX(-50%) translateY(calc(-50% - 8px));
+}
+
+.hamburger-bar-2 {
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.hamburger-bar-3 {
     transform: translateX(-50%) translateY(calc(-50% + 8px));
-    z-index: 90;
 }
 
 @media screen and (max-width: 1440px) {
@@ -170,7 +165,6 @@ button {
         opacity: 0;
         height: 100vh;
         width: 100%;
-        overflow: scroll;
         background-color: #fff;
         transition: opacity 0.3s ease, visibility 0.3s ease;
     }
@@ -181,7 +175,6 @@ button {
 
     .header-nav__item--sp {
         position: relative;
-        padding: 15px;
         border-bottom: 1px solid #000;
     }
 
@@ -194,10 +187,12 @@ button {
     }
 
     .header-nav__link--sp {
+        display: inline-block;
         color: #000;
         font-size: 30px;
         width: 100%;
         font-weight: 600;
+        padding: 15px;
     }
 
     .hamburger-menu-wrapper.is-open {
@@ -222,12 +217,4 @@ button {
         transform: translateY(-1px) translateX(-50%) rotate(45deg);
     }
 
-    .hamburger-menu-wrraper {
-        position: relative;
-    }
-
-    .humberger-menu-logo {
-        position: absolute;
-
-    }
 }

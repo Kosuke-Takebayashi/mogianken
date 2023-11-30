@@ -59,7 +59,7 @@
 
             <!-- グローバルナビゲーション - SP -->
             <div class="hamburger-menu-wrapper" id="hamburger-menu-wrapper">
-                <div class="header-inner"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-header-hamburger.svg" alt="" class="humburger-menu-logo" width="117" height="40"></div>
+                <div class="header-inner"><a href="<?php echo esc_url(home_url()); ?>"><img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/logo-header-hamburger.svg" alt="" class="hamburger-menu-logo" width="117" height="40"></a></div>
                 <nav class="header-nav--sp hamburger-menu">
                     <ul class='header-nav__list--sp'>
                         <li class="header-nav__item--sp">

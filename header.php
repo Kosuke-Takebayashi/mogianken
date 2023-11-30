@@ -42,24 +42,8 @@
                     'menu_class' => 'header-nav__list',
                     'container' => false,
                 )) ?>
-                <!-- <ul class='header-nav__list'>
-                    <li class="header-nav__item">
-                        <a href="<?php echo esc_url(home_url()); ?>/about" class="header-nav__link <?php echo (is_home() || is_front_page()) ? "header-nav__link--top-page" : ""; ?>">About us</a>
-                    </li>
-                    <li class="header-nav__item">
-                        <a href="<?php echo esc_url(home_url()); ?>/service" class="header-nav__link <?php echo (is_home() || is_front_page()) ? "header-nav__link--top-page" : ""; ?>">Service</a>
-                    </li>
-                    <li class="header-nav__item">
-                        <a href="<?php echo esc_url(home_url()); ?>/company" class="header-nav__link <?php echo (is_home() || is_front_page()) ? "header-nav__link--top-page" : ""; ?>">Company</a>
-                    </li>
-                    <li class="header-nav__item">
-                        <a href="<?php echo esc_url(home_url()); ?>/news" class="header-nav__link <?php echo (is_home() || is_front_page()) ? "header-nav__link--top-page" : ""; ?>">News</a>
-                    </li>
-                    <li class="header-nav__item header-contact-button <?php echo (is_home() || is_front_page()) ? "header-contact-button--top-page" : ""; ?>">
-                        <a href="<?php echo esc_url(home_url()); ?>/contact" class="header-nav__link  header-contact-button__link <?php echo (is_home() || is_front_page()) ? "header-contact-button__link--top-page" : ""; ?>">
-                            <img src="<?php echo esc_url($contact_button_icon); ?>" alt="" class="header-contact-button__img" width="26" height="20">Contact</a>
-                    </li>
-                </ul> -->
+
+                <!-- お問い合わせボタン -->
                 <button class="header-nav__item header-contact-button <?php echo (is_home() || is_front_page()) ? "header-contact-button--top-page" : ""; ?>">
                     <a href="<?php echo esc_url(home_url()); ?>/contact" class="header-contact-button__link <?php echo (is_home() || is_front_page()) ? "header-contact-button__link--top-page" : ""; ?>">
                         <img src="<?php echo esc_url($contact_button_icon); ?>" alt="" class="header-contact-button__img" width="26" height="20">Contact</a>

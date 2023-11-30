@@ -21,46 +21,7 @@
 
     <div class="main-content-inner">
 
-        <div class="company-overview-wrapper">
-            <table class="company-overview">
-                <tr>
-                    <th>会社名</th>
-                    <td>株式会社テックコーポレート</td>
-                </tr>
-                <tr>
-                    <th>設立</th>
-                    <td>20XX年X月X日</td>
-                </tr>
-                <tr>
-                    <th>代表者</th>
-                    <td>テック 太郎</td>
-                </tr>
-                <tr>
-                    <th>資本金</th>
-                    <td>5,000,000万円</td>
-                </tr>
-                <tr>
-                    <th>従業員数</th>
-                    <td>15名</td>
-                </tr>
-                <tr>
-                    <th>事業内容</th>
-                    <td>テキストテキストテキスト
-                        テキストテキストテキスト</td>
-                </tr>
-                <tr>
-                    <th>住所</th>
-                    <td>〒123-1234<br>
-                        東京都東京区東京町1-1-1</td>
-                </tr>
-                <tr>
-                    <th>お問い合わせ</th>
-                    <td>Tel：080–1234-5678<br>
-                        Mail：xxx@xxx.xx</td>
-                </tr>
-            </table>
-        </div>
-
+        <?php get_template_part('template-parts/company-profile'); ?>
 
         <div class="map-wrapper">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10199.835577215172!2d139.76186966503437!3d35.681081895140956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188bfbd89f700b%3A0x277c49ba34ed38!2z5p2x5Lqs6aeF!5e0!3m2!1sja!2sjp!4v1699783859604!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

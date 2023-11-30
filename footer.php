@@ -1,7 +1,7 @@
-<!-- フッター -->
 <footer class="footer">
     <div class="footer-inner">
 
+    <?php if(!is_page('contact')): ?>
         <div class="footer-contact">
             <div class="footer-contact-inner">
 
@@ -15,6 +15,7 @@
 
             </div>
         </div>
+    <?php endif; ?>
 
         <div class="footer-content">
             <div class="footer-content-inner">

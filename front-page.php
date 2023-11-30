@@ -160,27 +160,11 @@
                 <span class="section-title__sub-text">お知らせ</span>
             </div>
 
-
             <div class="section-content">
-
                 <div class="news-article-wrapper">
-                    <?php if (have_posts()) :
-                        while (have_posts()) : the_post(); ?>
-                            <article class="news-article">
-                                <time class="news-article__time" datetime=""><?php the_time('Y/m/d'); ?></time>
 
-                                <h3 class="news-article__title">
-                                    <a href="<?php the_permalink(); ?>" class="article-link">
-                                        <?php the_title(); ?>
-                                    </a>
-                                    <picture>
-                                        <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/icon-news-arrow-sp.svg">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-news-arrow.svg" alt="" class="news-article__icon" width="26" height="10">
-                                    </picture>
-                                </h3>
-                            </article>
-                        <?php endwhile; ?>
-                    <?php endif; ?>
+                    <!-- 記事一覧を表示 -->
+                    <?php get_template_part('template-parts/front-page-articles'); ?>
 
                     <div class="read-more-link-wrapper news__read-more-link-wrapper">
                         <a href="<?php echo esc_url(home_url()); ?>/news" class="read-more-link news__read-more-link">もっと見る
@@ -189,9 +173,6 @@
                     </div>
 
                 </div>
-
-
-
             </div>
         </section>
     </div>

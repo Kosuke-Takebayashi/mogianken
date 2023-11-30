@@ -144,6 +144,7 @@
     .contact__lead{
       font-size: 14px;
       text-align: left;
+      margin-bottom: 25px;
     }
 
     .contact__lead br {
@@ -157,6 +158,19 @@
 
     .form__textfield {
       font-size: 16px;
+    }
+
+    .form__unit--textarea {
+      margin-bottom: 50px;
+    }
+
+    .form__textarea {
+      min-height: 220px;
+    }
+
+    .contact__button {
+      font-size: 16px;
+      padding: 0.71em 1.33em;
     }
 
   }

@@ -7,7 +7,7 @@
                 <a href="<?php the_permalink(); ?>" class="article-link">
                     <?php the_title(); ?>
                 </a>
-                <picture>
+                <picture class="news-article__img">
                     <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/icon-news-arrow-sp.svg">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/img/icon-news-arrow.svg" alt="" class="news-article__icon" width="26" height="10">
                 </picture>

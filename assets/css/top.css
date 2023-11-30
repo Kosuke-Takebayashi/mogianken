@@ -1,7 +1,5 @@
 @charset "utf-8";
 
-
-
 /* メインビジュアル */
 .mv {
     position: relative;
@@ -17,7 +15,7 @@
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-.mv__img {
+.mv__img img {
     width: 100%;
     height: auto;
 }
@@ -43,7 +41,7 @@
     font-weight: 600;
 }
 
-/* News */
+/* もっと見る */
 .news__read-more-link-wrapper {
     margin-top: 51px;
     text-align: right;
@@ -61,17 +59,19 @@
 }
 
 @media screen and (max-width: 1180px) {
+
+    /* メインビジュアル */
     .mv-text {
         left: 5%;
     }
-}
 
+}
 
 @media screen and (max-width: 767px) {
 
     /* メインビジュアル */
     .mv-text {
-        bottom: 12.2%;
+        bottom: 13.2%;
         left: 6.4%;
     }
 
@@ -83,6 +83,7 @@
         font-size: 14px;
     }
 
+    /* もっと見る */
     .news__read-more-link-wrapper {
         margin-top: 35px;
     }

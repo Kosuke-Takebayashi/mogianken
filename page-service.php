@@ -46,9 +46,9 @@
                     </div>
 
                     <figure class="section-content-figure flex-item--reverse">
-                        <picture>
+                        <picture class="section-content-figure__img">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-advantage-1-sp.jpg" width="444" height="444">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-advantage-1.jpg" alt="会議中で笑顔の社長と女性社員" class="section-content-figure__img" width="444" height="444">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-advantage-1.jpg" alt="会議中で笑顔の社長と女性社員" width="444" height="444">
                         </picture>
                     </figure>
                 </div>
@@ -69,9 +69,9 @@
                     </div>
 
                     <figure class="section-content-figure section-content-figure--reverse">
-                        <picture>
+                        <picture class="section-content-figure__img">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-advantage-2-sp.jpg" width="444" height="444">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-advantage-2.jpg" alt="デスクで作業をする男性社員と女性社員を社長が後ろから見ています" class="section-content-figure__img" width="444" height="444">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-advantage-2.jpg" alt="デスクで作業をする男性社員と女性社員を社長が後ろから見ています" width="444" height="444">
                         </picture>
                     </figure>
                 </div>
@@ -105,9 +105,9 @@
                     </div>
 
                     <figure class="section-content-figure flex-item--reverse">
-                        <picture>
+                        <picture class="section-content-figure__img">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-feature-1-sp.jpg" width="444" height="444">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-feature-1.jpg" alt="地上から見た高層ビルと青い空" class="section-content-figure__img" width="444" height="444">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-feature-1.jpg" alt="地上から見た高層ビルと青い空" width="444" height="444">
                         </picture>
                     </figure>
                 </div>
@@ -128,9 +128,9 @@
                     </div>
 
                     <figure class="section-content-figure section-content-figure--reverse">
-                        <picture>
+                        <picture class="section-content-figure__img">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-feature-2-sp.jpg" width="444" height="444">
-                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-feature-2.jpg" alt="4人がお互いに手を組んでいます" class="section-content-figure__img" width="444" height="444">
+                            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-feature-2.jpg" alt="4人がお互いに手を組んでいます" width="444" height="444">
                         </picture>
                     </figure>
                 </div>

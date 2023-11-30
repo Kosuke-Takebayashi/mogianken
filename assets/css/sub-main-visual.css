@@ -49,6 +49,10 @@
         margin-bottom: 54px;
     }
 
+    .sub-mv-main-text {
+        line-height: 1;
+    }
+
     .sub-mv-sub-text {
         font-size: 12px;
     }

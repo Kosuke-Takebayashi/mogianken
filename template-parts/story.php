@@ -1,7 +1,7 @@
 <!-- Story -->
 <section class="story section">
 
-    <div class="section-title">
+    <div class="section-title story__section-title">
         <h2 class="section-title__text">Story</h2>
         <span class="section-title__sub-text">沿革</span>
     </div>

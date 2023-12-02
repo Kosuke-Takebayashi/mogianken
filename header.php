@@ -44,14 +44,14 @@
                 )) ?>
 
                 <!-- お問い合わせボタン -->
-                <button class="header-nav__item header-contact-button <?php echo (is_home() || is_front_page()) ? "header-contact-button--top-page" : ""; ?>">
+                <div class="header-nav__item header-contact-button <?php echo (is_home() || is_front_page()) ? "header-contact-button--top-page" : ""; ?>">
                     <a href="<?php echo esc_url(home_url()); ?>/contact" class="header-contact-button__link <?php echo (is_home() || is_front_page()) ? "header-contact-button__link--top-page" : ""; ?>">
                         <img src="<?php echo esc_url($contact_button_icon); ?>" alt="" class="header-contact-button__img" width="26" height="20">Contact</a>
-                </button>
+                </div>
             </nav>
 
             <!-- ハンバーガーボタン -->
-            <button class="hamburger-button" id="hamburger-button">
+            <button class="hamburger-button" id="hamburger-button" type="button">
                 <span class="hamburger-bar hamburger-bar-1"></span>
                 <span class="hamburger-bar hamburger-bar-2"></span>
                 <span class="hamburger-bar hamburger-bar-3"></span>

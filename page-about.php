@@ -50,7 +50,7 @@
 
                     </div>
 
-                    <figure class="section-content-figure flex-item--reverse">
+                    <figure class="section-content-figure">
                         <picture class="section-content-figure__img">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-mission-1-sp.jpg">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-mission-1.jpg" alt="社長がジェスチャーを交えながら話をしています" width="444" height="444">
@@ -109,7 +109,7 @@
 
                     </div>
 
-                    <figure class="section-content-figure flex-item--reverse">
+                    <figure class="section-content-figure">
                         <picture class="section-content-figure__img">
                             <source media="(max-width: 767px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-vision-1-sp.jpg">
                             <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/img/photo-vision-1.jpg" alt="若い男女の社員が少し斜めの角度で肩を並べてこちらを見ています" width="444" height="444">

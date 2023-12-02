@@ -12,7 +12,7 @@
 
 <body>
     <!-- ヘッダー -->
-    <header class="header">
+    <header class="header <?php echo (!is_front_page() && !is_home()) ? 'header--bg': ''; ?>">
         <div class="header-inner">
 
             <?php

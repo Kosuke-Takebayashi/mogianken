@@ -48,6 +48,9 @@
 }
 
 .header-contact-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 80px;
     width: 106px;
     background-color: #003C8A;

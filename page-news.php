@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="main-content-inner news-article-wrapper news-main__news-article-wrapper">
+    <div class="main-content-inner container news-article-wrapper news-main__news-article-wrapper">
 
         <?php
         $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;

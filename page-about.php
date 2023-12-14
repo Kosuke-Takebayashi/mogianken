@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="main-content-inner">
+    <div class="main-content-inner container">
 
         <!-- Mission -->
         <section class="mission section">

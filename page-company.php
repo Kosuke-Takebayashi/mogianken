@@ -24,7 +24,7 @@
         </div>
     </div>
 
-    <div class="main-content-inner">
+    <div class="main-content-inner container">
 
         <!-- 会社プロフィール -->
         <?php get_template_part('template-parts/company-profile'); ?>

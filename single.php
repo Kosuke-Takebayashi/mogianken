@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="main-content-inner main-content-inner--post-detail-page">
+    <div class="main-content-inner container main-content-inner--post-detail-page">
 
         <?php if (have_posts()) :
             while (have_posts()) : the_post(); ?>

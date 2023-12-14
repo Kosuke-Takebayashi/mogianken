@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="main-content-inner main-content-inner--news-page">
+    <div class="main-content-inner container main-content-inner--news-page">
 
         <?php
         $cat = get_the_category();

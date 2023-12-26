@@ -29,7 +29,7 @@
         <section class="mission section">
 
             <div class="section-title">
-                <h2 class="section-title__text">Mission</h2>
+                <h3 class="section-title__text">Mission</h3>
                 <span class="section-title__sub-text">ミッション</span>
             </div>
 
@@ -37,7 +37,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             タイトルタイトルタイトル<br>
                             タイトルタイトルタイトルテキストテキストテキスト</p>
@@ -63,7 +63,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             タイトルタイトルタイトル<br>
                             タイトルタイトルタイトルテキストテキストテキスト</p>
@@ -88,7 +88,7 @@
         <section class="vision section">
 
             <div class="section-title">
-                <h2 class="section-title__text">Vision</h2>
+                <h3 class="section-title__text">Vision</h3>
                 <span class="section-title__sub-text">ビジョン</span>
             </div>
 
@@ -96,7 +96,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             タイトルタイトルタイトル<br>
                             タイトルタイトルタイトルテキストテキストテキスト</p>
@@ -122,7 +122,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             タイトルタイトルタイトル<br>
                             タイトルタイトルタイトルテキストテキストテキスト</p>

@@ -32,7 +32,7 @@
         <section class="section advantage">
 
             <div class="section-title">
-                <h2 class="section-title__text">Our Advantage</h2>
+                <h3 class="section-title__text">Our Advantage</h3>
                 <span class="section-title__sub-text">私たちの強み</span>
             </div>
 
@@ -40,7 +40,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
                             テキストテキストテキストテキストテキストテキストテキスト</p>
@@ -66,7 +66,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
                             テキストテキストテキストテキストテキストテキストテキスト</p>
@@ -91,7 +91,7 @@
         <section class="feature section">
 
             <div class="section-title">
-                <h2 class="section-title__text">Our Feature</h2>
+                <h3 class="section-title__text">Our Feature</h3>
                 <span class="section-title__sub-text">私たちの特徴</span>
             </div>
 
@@ -99,7 +99,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
                             テキストテキストテキストテキストテキストテキストテキスト</p>
@@ -125,7 +125,7 @@
                 <div class="section-content-inner">
 
                     <div class="section-content-description">
-                        <h3 class="section-content-description__title">テキストテキスト</h3>
+                        <h4 class="section-content-description__title">テキストテキスト</h4>
                         <p class="section-content-description__text">
                             テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト<br>
                             テキストテキストテキストテキストテキストテキストテキスト</p>

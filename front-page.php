@@ -17,7 +17,7 @@
         <!-- メインコンテンツ -->
         <?php get_template_part('template-parts/top/content'); ?>
 
-        <!-- News -->
+        <!-- News一覧 -->
         <?php get_template_part('template-parts/top/archive'); ?>
 
     </div>

@@ -22,8 +22,32 @@ switch ($pageSlug) {
         $mvImageNameSp = 'photo-service-mv-sp.jpg';
         break;
 
+    case 'company':
+        $pageTitle = 'Company';
+        $pageSubTitle = '会社概要';
+        $mvImageName = 'photo-company-mv.jpg';
+        $mvImageNameSp = 'photo-company-mv-sp.jpg';
+        break;
+
+    case 'news':
+        $pageTitle = 'News';
+        $pageSubTitle = 'お知らせ';
+        $mvImageName = 'photo-news.jpg';
+        $mvImageNameSp = 'photo-news-mv-sp.jpg';
+        break;
+
+    case 'contact':
+        $pageTitle = 'Contact';
+        $pageSubTitle = 'お問い合わせ';
+        $mvImageName = 'photo-contact.jpg';
+        $mvImageNameSp = 'photo-contact-mv-sp.jpg';
+        break;
+
     default:
-        # code...
+        $pageTitle = 'ページタイトル';
+        $pageSubTitle = 'サブタイトル';
+        $mvImageName = 'photo-aboutus-mv.jpg';
+        $mvImageNameSp = 'photo-aboutus-mv-sp.jpg';
         break;
 }
 

@@ -12,4 +12,3 @@
 | News詳細 | single.php |
 | Contact | page-contact.php |
 | 404 | 404.php |
-# mogianken_block
